@@ -1,64 +1,568 @@
 {
-	"cities": [
-		{
-			"cityName": "Lisbon",
-			"country": "Portugal",
-			"emoji": "🇵🇹",
-			"date": "2027-10-31T15:59:59.138Z",
-			"notes": "My favorite city so far!",
-			"position": {
-				"lat": 38.727881642324164,
-				"lng": -9.140900099907554
-			},
-			"id": 73930385
-		},
-		{
-			"cityName": "Madrid",
-			"country": "Spain",
-			"emoji": "🇪🇸",
-			"date": "2027-07-15T08:22:53.976Z",
-			"notes": "",
-			"position": {
-				"lat": 40.46635901755316,
-				"lng": -3.7133789062500004
-			},
-			"id": 17806751
-		},
-		{
-			"cityName": "Berlin",
-			"country": "Germany",
-			"emoji": "🇩🇪",
-			"date": "2027-02-12T09:24:11.863Z",
-			"notes": "Amazing 😃",
-			"position": {
-				"lat": 52.53586782505711,
-				"lng": 13.376933665713324
-			},
-			"id": 98443197
-		},
-		{
-			"cityName": "Faro",
-			"country": "Portugal",
-			"emoji": "🇵🇹",
-			"date": "2027-10-31T15:59:59.138Z",
-			"notes": "My favorite city so far!",
-			"position": {
-				"lat": 38.727881642324164,
-				"lng": -9.140900099907554
-			},
-			"id": 73952385
-		},
-		{
-			"cityName": "Barcelona",
-			"country": "Spain",
-			"emoji": "🇪🇸",
-			"date": "2027-07-15T08:22:53.976Z",
-			"notes": "",
-			"position": {
-				"lat": 40.46635901755316,
-				"lng": -3.7133789062500004
-			},
-			"id": 19906751
-		}
-	]
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": "73930385"
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "17806751"
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "b36d",
+      "cityName": "Al Fao",
+      "country": "Sudan (the)",
+      "date": "2024-12-15T13:44:45.479Z",
+      "emoji": "🇸🇩",
+      "notes": "",
+      "position": {
+        "lat": "13.819450281130266",
+        "lng": "34.19275790675953"
+      }
+    },
+    {
+      "id": "a5db",
+      "cityName": "Jabaloyas",
+      "country": "Spain",
+      "date": "2024-12-15T13:47:43.964Z",
+      "emoji": "🇪🇸",
+      "notes": "wow",
+      "position": {
+        "lat": "40.24754090723717",
+        "lng": "-1.4501953125000002"
+      }
+    },
+    {
+      "id": "5db7",
+      "cityName": "Assiut",
+      "country": "Egypt",
+      "date": "2024-12-15T13:50:38.996Z",
+      "emoji": "🇪🇬",
+      "notes": "wohooo",
+      "position": {
+        "lat": "27.080744047796266",
+        "lng": "31.491185439762578"
+      }
+    },
+    {
+      "id": "9e9c",
+      "cityName": "Paris Paris",
+      "country": "Egypt",
+      "date": "2024-12-15T13:57:47.156Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "22.09830603905564",
+        "lng": "30.234375000000004"
+      }
+    },
+    {
+      "id": "8155",
+      "cityName": "Hit",
+      "country": "Iraq",
+      "date": "2024-12-15T13:59:14.695Z",
+      "emoji": "🇮🇶",
+      "notes": "",
+      "position": {
+        "lat": "33.720257470340925",
+        "lng": "43.24218750000001"
+      }
+    },
+    {
+      "id": "f400",
+      "cityName": "Cabezamesada",
+      "country": "Spain",
+      "date": "2024-12-16T10:26:00.658Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.82483205325263",
+        "lng": "-3.09814453125"
+      }
+    },
+    {
+      "id": "a934",
+      "cityName": "Chinchilla de Monte Aragon",
+      "country": "Spain",
+      "date": "2024-12-16T10:26:07.558Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "38.70196289849622",
+        "lng": "-1.6040039062500002"
+      }
+    },
+    {
+      "id": "93ae",
+      "cityName": "Alboran Sea",
+      "country": "Spain",
+      "date": "2024-12-16T10:26:14.749Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "36.667603944943025",
+        "lng": "-4.284667968750001"
+      }
+    },
+    {
+      "id": "de19",
+      "cityName": "Ciempozuelos",
+      "country": "Spain",
+      "date": "2024-12-16T10:26:21.667Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.12830379337561",
+        "lng": "-3.6254882812500004"
+      }
+    },
+    {
+      "id": "2c93",
+      "cityName": "El Hamma",
+      "country": "Tunisia",
+      "date": "2024-12-16T10:26:31.737Z",
+      "emoji": "🇹🇳",
+      "notes": "",
+      "position": {
+        "lat": "33.8322118386127",
+        "lng": "9.404296875000002"
+      }
+    },
+    {
+      "id": "d9de",
+      "cityName": "Qina",
+      "country": "Egypt",
+      "date": "2024-12-16T10:26:49.352Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "26.272335449968583",
+        "lng": "32.73925781250001"
+      }
+    },
+    {
+      "id": "eda9",
+      "cityName": "Assiut",
+      "country": "Egypt",
+      "date": "2024-12-16T10:26:56.785Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "27.136159891119206",
+        "lng": "31.508789062500004"
+      }
+    },
+    {
+      "id": "9d6f",
+      "cityName": "Robledillo de Mohernando",
+      "country": "Spain",
+      "date": "2024-12-16T10:30:03.038Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.8133449067542",
+        "lng": "-3.2299804687500004"
+      }
+    },
+    {
+      "id": "9f98",
+      "cityName": "Bouchrahil",
+      "country": "Algeria",
+      "date": "2024-12-16T10:30:13.900Z",
+      "emoji": "🇩🇿",
+      "notes": "",
+      "position": {
+        "lat": "36.26097937412362",
+        "lng": "3.1860351562500004"
+      }
+    },
+    {
+      "id": "b369",
+      "cityName": "Tibi",
+      "country": "Spain",
+      "date": "2024-12-16T10:30:21.117Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "38.530652619875916",
+        "lng": "-0.5493164062500001"
+      }
+    },
+    {
+      "id": "2610",
+      "cityName": "Navaconcejo",
+      "country": "Spain",
+      "date": "2024-12-16T10:31:17.893Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.17833417176438",
+        "lng": "-5.822753906250001"
+      }
+    },
+    {
+      "id": "fe8d",
+      "cityName": "Chamusca",
+      "country": "Portugal",
+      "date": "2024-12-16T10:31:21.895Z",
+      "emoji": "🇵🇹",
+      "notes": "",
+      "position": {
+        "lat": "39.26561606489046",
+        "lng": "-8.459472656250002"
+      }
+    },
+    {
+      "id": "78f1",
+      "cityName": "Berzocana",
+      "country": "Spain",
+      "date": "2024-12-16T10:33:55.860Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.46957477368775",
+        "lng": "-5.537109375000001"
+      }
+    },
+    {
+      "id": "d8f7",
+      "cityName": "Malpartida de Caceres",
+      "country": "Spain",
+      "date": "2024-12-16T10:35:03.874Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.43556559528461",
+        "lng": "-6.481933593750001"
+      }
+    },
+    {
+      "id": "6d27",
+      "cityName": "Loures",
+      "country": "Portugal",
+      "date": "2024-12-16T10:35:24.269Z",
+      "emoji": "🇵🇹",
+      "notes": "",
+      "position": {
+        "lat": "38.82178804979743",
+        "lng": "-9.184570312500002"
+      }
+    },
+    {
+      "id": "8224",
+      "cityName": "Horcajo de los Montes",
+      "country": "Spain",
+      "date": "2024-12-16T11:07:42.150Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.33365785552354",
+        "lng": "-4.680175781250001"
+      }
+    },
+    {
+      "id": "d44b",
+      "cityName": "Torre del Campo",
+      "country": "Spain",
+      "date": "2024-12-16T11:08:06.341Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "37.82257257726182",
+        "lng": "-3.8671875000000004"
+      }
+    },
+    {
+      "id": "7f4e",
+      "cityName": "Sidi Bou Bekeur",
+      "country": "Algeria",
+      "date": "2024-12-16T11:11:06.811Z",
+      "emoji": "🇩🇿",
+      "notes": "",
+      "position": {
+        "lat": "34.95682075379121",
+        "lng": "0"
+      }
+    },
+    {
+      "id": "18d2",
+      "cityName": "Cordoba",
+      "country": "Spain",
+      "date": "2024-12-16T11:11:11.292Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "37.822534267814596",
+        "lng": "-4.702148437500001"
+      }
+    },
+    {
+      "id": "a42c",
+      "cityName": "Talavan",
+      "country": "Spain",
+      "date": "2024-12-16T11:11:56.424Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.62200976535869",
+        "lng": "-6.306152343750001"
+      }
+    },
+    {
+      "id": "5a5f",
+      "cityName": "La Ginebrosa",
+      "country": "Spain",
+      "date": "2024-12-16T11:12:35.368Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.86322119255691",
+        "lng": "-0.19775390625000003"
+      }
+    },
+    {
+      "id": "4cae",
+      "cityName": "Medina del Campo",
+      "country": "Spain",
+      "date": "2024-12-16T11:12:39.551Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "41.293814414260424",
+        "lng": "-4.877929687500001"
+      }
+    },
+    {
+      "id": "89fa",
+      "cityName": "Trasobares",
+      "country": "Spain",
+      "date": "2024-12-16T11:12:57.719Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "41.6561312184038",
+        "lng": "-1.6479492187500002"
+      }
+    },
+    {
+      "id": "67f5",
+      "cityName": "Cebreros",
+      "country": "Spain",
+      "date": "2024-12-16T11:14:40.985Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.412984624248764",
+        "lng": "-4.460449218750001"
+      }
+    },
+    {
+      "id": "d57d",
+      "cityName": "Condeixa-a-Nova",
+      "country": "Portugal",
+      "date": "2024-12-16T11:30:02.023Z",
+      "emoji": "🇵🇹",
+      "notes": "",
+      "position": {
+        "lat": "40.07747396481606",
+        "lng": "-8.525390625000002"
+      }
+    },
+    {
+      "id": "dce1",
+      "cityName": "Santarem",
+      "country": "Portugal",
+      "date": "2024-12-18T08:20:30.348Z",
+      "emoji": "🇵🇹",
+      "notes": "",
+      "position": {
+        "lat": "39.251200334494115",
+        "lng": "-8.635253906250002"
+      }
+    },
+    {
+      "id": "b668",
+      "cityName": "Villarrubia de los Ojos",
+      "country": "Spain",
+      "date": "2024-12-18T08:20:35.395Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.28498648375305",
+        "lng": "-3.6694335937500004"
+      }
+    },
+    {
+      "id": "3879",
+      "cityName": "Assiut",
+      "country": "Egypt",
+      "date": "2024-12-18T08:21:39.355Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "27.32697103533712",
+        "lng": "31.067619323730472"
+      }
+    },
+    {
+      "id": "ce18",
+      "cityName": "Abnub",
+      "country": "Egypt",
+      "date": "2024-12-18T08:23:10.701Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "27.268361761206748",
+        "lng": "31.15379333496094"
+      }
+    },
+    {
+      "id": "7c9e",
+      "cityName": "La Guardia",
+      "country": "Spain",
+      "date": "2024-12-18T12:23:45.554Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "39.78100305865858",
+        "lng": "-3.4277343750000004"
+      }
+    },
+    {
+      "id": "f040",
+      "cityName": "Mers el Kebir",
+      "country": "Algeria",
+      "date": "2024-12-18T12:53:43.159Z",
+      "emoji": "🇩🇿",
+      "notes": "",
+      "position": {
+        "lat": "35.731786314038914",
+        "lng": "-0.703125"
+      }
+    },
+    {
+      "id": "eca5",
+      "cityName": "Solanillos del Extremo",
+      "country": "Spain",
+      "date": "2024-12-18T13:33:45.190Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.76533672066523",
+        "lng": "-2.6806640625"
+      }
+    },
+    {
+      "id": "77d3",
+      "cityName": "Sandias",
+      "country": "Spain",
+      "date": "2024-12-18T13:34:04.702Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "42.13334726820277",
+        "lng": "-7.756347656250001"
+      }
+    },
+    {
+      "id": "37eb",
+      "cityName": "Assiut",
+      "country": "Egypt",
+      "date": "2024-12-18T13:39:17.474Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "27.336326041823792",
+        "lng": "31.113281250000004"
+      }
+    },
+    {
+      "id": "46d0",
+      "cityName": "Markaz al Waḩat ad Dakhilah",
+      "country": "Egypt",
+      "date": "2024-12-18T13:39:27.556Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "24.651823368878034",
+        "lng": "29.091796875"
+      }
+    },
+    {
+      "id": "d4dc",
+      "cityName": "Sohag",
+      "country": "Egypt",
+      "date": "2024-12-18T13:39:40.157Z",
+      "emoji": "🇪🇬",
+      "notes": "",
+      "position": {
+        "lat": "26.411286439660064",
+        "lng": "31.717529296875004"
+      }
+    },
+    {
+      "id": "023a",
+      "cityName": "San Martin de la Vega",
+      "country": "Spain",
+      "date": "2024-12-18T13:42:01.419Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "40.264358571109476",
+        "lng": "-3.5815429687500004"
+      }
+    },
+    {
+      "id": "87e3",
+      "cityName": "Villatorres",
+      "country": "Spain",
+      "date": "2024-12-18T13:42:06.503Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "37.96395794471367",
+        "lng": "-3.7133789062500004"
+      }
+    },
+    {
+      "id": "c23d",
+      "cityName": "Al Hufuf",
+      "country": "Saudi Arabia",
+      "date": "2024-12-18T13:42:15.541Z",
+      "emoji": "🇸🇦",
+      "notes": "",
+      "position": {
+        "lat": "24.38889087128214",
+        "lng": "48.16406250000001"
+      }
+    }
+  ]
 }
